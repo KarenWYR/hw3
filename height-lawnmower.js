@@ -8,7 +8,7 @@ var h = 10;
 
 function draw() {
   stroke(random(60, 70), 100, 90);
-  line(x, height-10, x+random(-10, 10), height-10-random(h));
+  line(x, height - 10, x + random(-10, 10), height - 10 - random(h));
   noStroke();
 
   x = x + 10;
@@ -20,10 +20,10 @@ function draw() {
 
   if (random(h) > 100) {
     fill(255);
-    rect(0, 0, width, height-15);
+    rect(0, 0, width, height - 15);
     h = 10;
   }
 
   fill(40, 100, 60);
-  rect(0, height-10, width, 10);
+  rect(0, height - 10, width, 10);
 }
